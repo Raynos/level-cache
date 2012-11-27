@@ -1,0 +1,41 @@
+{
+  "name": "level-cache",
+  "version": "0.1.0",
+  "description": "An in memory cache on top of leveldb",
+  "keywords": [],
+  "author": "Raynos <raynos2@gmail.com>",
+  "repository": "git://github.com/Raynos/level-cache.git",
+  "main": "index",
+  "homepage": "https://github.com/Raynos/level-cache",
+  "contributors": [
+    {
+      "name": "Jake Verbaten"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/Raynos/level-cache/issues",
+    "email": "raynos2@gmail.com"
+  },
+  "dependencies": {
+    "level-encoding": "~0.1.0",
+    "level-write-stream": "~0.1.0",
+    "xtend": "~1.0.3",
+    "lru-cache": "~2.1.0",
+    "read-stream": "~0.4.8"
+  },
+  "devDependencies": {
+    "tap": "~0.3.1",
+    "levelidb": "~0.2.3",
+    "node-uuid": "~1.4.0",
+    "write-stream": "~0.4.3"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/Raynos/level-cache/raw/master/LICENSE"
+    }
+  ],
+  "scripts": {
+    "test": "tap --stderr --tap ./test"
+  }
+}
